@@ -4,7 +4,7 @@ int main() {
     printf("값 : ");
     int k;
     scanf("%d", &k);
-    if (k < 0 || k > 100){
+    if (k > 0 || k < 100){
         if(k >= 90)
         {
             printf("A");
